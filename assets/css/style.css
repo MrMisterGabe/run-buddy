@@ -143,13 +143,57 @@ section {
     text-align: center;
 }
 
-.intro h2 {
+/*apply style to steps class */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+/*apply style to section-title class */
+.section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
     display: inline-block;
-    margin: 0 auto;
+    border-bottom: 3px solid;
+}
+
+/*apply style to primary-border class */
+.primary-border {
+    border-color: #fce138;
+}
+
+/*apply style to secondary-border class */
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/*apply style to <div> in steps class */
+.steps div {
+    margin-bottom: 80px;
+}
+
+/*apply style to <iimg> in steps class */
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+/*apply style to <h3> in steps class */
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+/*apply style to <p> in steps class */
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+/*apply style to <span> in steps class */
+.steps span {
+    font-size: 38px;
 }
