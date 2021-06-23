@@ -158,14 +158,8 @@ section {
 }
 /* Hero Style End */
 
-/* apply style to intro class */
-.intro {
-    text-align: center;
-}
-
 /*apply style to steps class */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -173,9 +167,6 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 }
 
@@ -220,7 +211,6 @@ section {
 
 /* apply style to trainers class */
 .trainers {
-    text-align: center;
 }
 
 /* apply style to trainer class */
@@ -276,10 +266,13 @@ section {
     border-bottom: 3px solid;
     margin-bottom: 35px;
     color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -315,4 +308,12 @@ section {
 
 .contact-info a {
     color: #fce138;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.intro p {
+    text-align: center;
 }
